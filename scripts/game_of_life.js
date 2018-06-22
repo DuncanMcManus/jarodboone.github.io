@@ -966,7 +966,7 @@
             $('#zoomOut').click({ gol: this }, function (event) {
                 event.data.gol.numberOfBlocks += 20;
                 if (event.data.gol.numberOfBlocks == MIN_ZOOM) {
-                    alert('Cannot zoom our anymore. The meanings are in the cells, the \"thing\" is just coincidence');
+                    alert('Cannot zoom out anymore. The meanings are in the cells, the \"thing\" is just coincidence');
                     event.data.gol.numberOfBlocks -= 20;
                     
                 } else { 
